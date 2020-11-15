@@ -25,32 +25,32 @@ class SearchAppointments extends Component {
 
               <div className="sort-menu dropdown-menu dropdown-menu-right">
                 <button className={
-                  'sort-by dropdown-item' + 
+                  'sort-by dropdown-item ' + 
                   (this.props.orderBy === 'petName' ? 'active' : '')
                 } href="#">
                   Pet Name
                 </button>
                 <button className={
-                  'sort-by dropdown-item' + 
+                  'sort-by dropdown-item ' + 
                   (this.props.orderBy === 'aptDate' ? 'active' : '')
                 } href="#">
                   Date
                 </button>
                 <button className={
-                  'sort-by dropdown-item' + 
+                  'sort-by dropdown-item ' + 
                   (this.props.orderBy === 'ownerName' ? 'active' : '')
                 } href="#">
                   Owner
                 </button>
                 <div role="separator" className="dropdown-divider" />
                 <button className={
-                  'sort-by dropdown-item' + 
+                  'sort-by dropdown-item ' + 
                   (this.props.orderDir === 'asc' ? 'active' : '')
                 } href="#">
                   Asc
                 </button>
                 <button className={
-                  'sort-by dropdown-item' + 
+                  'sort-by dropdown-item ' + 
                   (this.props.orderDir === 'desc' ? 'active' : '')
                 } href="#">
                   Desc
