@@ -57,7 +57,7 @@ class SearchAppointments extends Component {
                   'sort-by dropdown-item ' + 
                   (this.props.orderDir === 'asc' ? 'active' : '')
                 } 
-                  onClick={ e => this.props.changeOrder(this.props.orderDir, 'asc')}
+                  onClick={ e => this.props.changeOrder(this.props.orderBy, 'asc')}
                   href="#"
                 >
                   Asc
@@ -66,7 +66,7 @@ class SearchAppointments extends Component {
                   'sort-by dropdown-item ' + 
                   (this.props.orderDir === 'desc' ? 'active' : '')
                 }  
-                  onClick={ e => this.props.changeOrder(this.props.orderDir, 'desc')}
+                  onClick={ e => this.props.changeOrder(this.props.orderBy, 'desc')}
                   href="#"
                 >
                   Desc
