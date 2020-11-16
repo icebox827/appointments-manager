@@ -7,6 +7,9 @@
 
 - JavaScript
 - React
+- Bootstrap
+- React Icons
+- React Moment
 
 ## Live Demo
 
