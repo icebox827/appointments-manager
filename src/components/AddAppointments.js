@@ -57,7 +57,7 @@ class AddAppointments extends Component {
         </div>
 
         <div className="card-body">
-          <form id="aptForm" noValidate onSubmit={this.handleAdd}>
+          <form id="aptForm" onSubmit={this.handleAdd}>
             <div className="form-group form-row">
               <label
                 className="col-md-2 col-form-label text-md-right"
@@ -74,6 +74,7 @@ class AddAppointments extends Component {
                   placeholder="Pet's Name"
                   value={this.state.petName}
                   onChange={this.handleChange}
+                  required
                 />
               </div>
             </div>
@@ -93,6 +94,7 @@ class AddAppointments extends Component {
                   placeholder="Owner's Name"
                   value={this.state.ownerName}
                   onChange={this.handleChange}
+                  required
                 />
               </div>
             </div>
@@ -112,6 +114,7 @@ class AddAppointments extends Component {
                   id="aptDate"
                   value={this.state.aptDate}
                   onChange={this.handleChange}
+                  required
                 />
               </div>
               <label
@@ -128,6 +131,7 @@ class AddAppointments extends Component {
                   id="aptTime"
                   value={this.state.aptTime}
                   onChange={this.handleChange}
+                  required
                 />
               </div>
             </div>
@@ -146,6 +150,7 @@ class AddAppointments extends Component {
                   placeholder="Appointment Notes"
                   value={this.state.aptNotes}
                   onChange={this.handleChange}
+                  required
                 />
               </div>
             </div>
