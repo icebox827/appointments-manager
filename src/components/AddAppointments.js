@@ -52,7 +52,7 @@ class AddAppointments extends Component {
       <div className={
         'card textcenter mt-3 ' + (this.props.formDisplay ? '' : 'add-appointment')
       }>
-        <div className="apt-addheading card-header bg-primary text-white" onClick={this.props.toggleForm}>
+        <div className="apt-addheading card-header bg-primary text-white text-center" onClick={this.props.toggleForm}>
           <FaPlus /> Add Appointment
         </div>
 
