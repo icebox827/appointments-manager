@@ -13,7 +13,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://objective-bose-5b5ea0.netlify.app/)
+[Live Demo Link](https://appointments-manager.netlify.app/)
 
 
 ## Getting Started
