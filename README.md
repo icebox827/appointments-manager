@@ -2,7 +2,7 @@
 
 > This is a simple appointment manager for Pets Medicare(a fictional company). A user can create an appointment, delete an appointment, search the available appointments, and sort them.
 
-![Screenshot](./appointments-manager_main.png)
+![Screenshot](./pets-medicare.png)
 ## Built With
 
 - JavaScript
