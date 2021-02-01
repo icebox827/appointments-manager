@@ -1,4 +1,25 @@
 /** Basic Page CSS **/
+/* Works on Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color:#512DA8;
+}
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #cac8c8;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #512DA8;
+  border-radius: 20px;
+  border: 3px solid  #cac8c8;
+}
+
 body {
   font-weight: 200;
   background-color: #512DA8;
