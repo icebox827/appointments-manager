@@ -13,6 +13,8 @@ body {
 
 .appointment-list {
   font-size: 1.1em;
+  height: 69vh;
+  overflow: scroll;
 }
 
 .appointment-list .pet-item {
