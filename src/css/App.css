@@ -13,6 +13,9 @@ body {
 
 .appointment-list {
   font-size: 1.1em;
+  height: 69vh;
+  overflow: scroll;
+  overflow-x: hidden;
 }
 
 .appointment-list .pet-item {
@@ -25,7 +28,7 @@ body {
 
 .appointment-list .pet-name {
   font-weight: 600;
-  color: #337ab7;
+  color:#512DA8;
   font-size: 1.3em;
   line-height: 100%;
 }
