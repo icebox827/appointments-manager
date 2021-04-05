@@ -21,7 +21,7 @@
 To get a local copy up and running follow these simple example steps.
 
 To get a local copy up and running follow these simple example steps.
-- `git@github.com:trekab/appointments-manager.git`
+- `git clone git@github.com:trekab/appointments-manager.git`
 
 Then you browse to the folder and exucute the following commands
 - `cd appointments-manager`
